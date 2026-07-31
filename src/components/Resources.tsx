@@ -19,7 +19,7 @@ export function Resources({ onShare }: { onShare: () => void }) {
   return (
     <section className="px-gutter pt-[34px] pb-1.5">
       <SectionHead kicker="Where We Work" title="Proudly Serving Central Florida" />
-      <p className="text-center font-sans text-[0.95rem] font-light leading-relaxed text-muted-foreground">
+      <p className="text-center font-sans text-[0.95rem] leading-relaxed text-muted-foreground">
         Ascension Glassworks proudly serves homeowners throughout Central Florida with professional
         window and door installation services.
       </p>

@@ -7,8 +7,8 @@ export function Hero() {
         <div className="text-[0.62rem] font-medium tracking-[0.34em] text-primary uppercase">
           Windows &amp; Doors
         </div>
-        <div className="mt-2 font-serif text-[1.35rem] leading-tight text-foreground italic">
-          Clearly Raising Standards.
+        <div className="mt-2 text-[1.05rem] leading-tight font-light tracking-[0.02em] text-foreground">
+          Professional Window &amp; Door Installation
         </div>
       </div>
     </div>

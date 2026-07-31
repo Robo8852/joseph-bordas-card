@@ -8,7 +8,7 @@ export function Hero() {
           Windows &amp; Doors
         </div>
         <div className="mt-2 text-[1.05rem] leading-tight font-light tracking-[0.02em] text-foreground">
-          Professional Window &amp; Door Installation
+          Raising the Standard
         </div>
       </div>
     </div>

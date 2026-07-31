@@ -16,7 +16,7 @@ export function PrimaryCtas({
             the real work; the toast is desktop feedback only. */}
         <Button asChild variant="brand" size="brand">
           <a href="/Joseph-Bordas.vcf" download="Joseph-Bordas.vcf" onClick={onAddContact}>
-            Add to Contacts
+            Save Contact
           </a>
         </Button>
         <Button type="button" variant="brandSecondary" size="brand" onClick={onShare}>

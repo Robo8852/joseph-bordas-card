@@ -41,14 +41,11 @@ draft. The following are still unknown or unresolved and must be settled before 
   Lakewood Ranch, Venice, Tampa, St. Petersburg, Clearwater, Orlando). The older
   `proclaim/redesigns/ascension-glassworks.html` said "Florida Gulf Coast". The PDF wins
   here, but worth confirming with the client.
-- **Canonical URL** — `src/lib/site.ts` hardcodes `https://joseph-bordas-card.vercel.app`,
-  which is a **guess**: this card has not been deployed. The Connect SMS and Share buttons
-  both use it. Update after the first deploy.
-- **og:image** — `index.html` has a `TODO(deploy)`: `og:image` must become an absolute URL
-  once the final domain is decided (social scrapers ignore relative paths). It currently
-  points at the logo SVG; a raster PNG would be a safer OG image for most scrapers.
-- **Favicon / apple-touch-icon** — `public/favicon.ico` and `public/apple-touch-icon.png` are
-  still the inherited Pavers, Palms, & Paradise icons. Regenerate from the Ascension mark.
+- **Deployed** — live at `https://joseph-bordas-card.vercel.app` (Vercel project
+  `joseph-bordas-card`, auto-deploys from `main` on github.com/Robo8852/joseph-bordas-card).
+  `src/lib/site.ts` and the `og:image` (a rasterized 1200x630 PNG of the lockup at
+  `public/assets/og-image.png`) both point at that URL — update both if a custom domain
+  is attached later. Favicon and apple-touch-icon were regenerated from the A-mark.
 
 ## Footer agency credit needs its link restored
 

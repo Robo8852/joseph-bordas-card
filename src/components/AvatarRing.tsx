@@ -11,16 +11,16 @@
 
    Sizing is deliberate and hand-tuned, so don't "clean it up": the icon's own
    viewBox was retargeted to the artwork bounds (its source file carried ~24%
-   empty margin), then p-2 plus a 6px lift was chosen by eye. The triangle is
-   widest at its base exactly where the circle narrows, so its feet sit right
-   on the ring at this size — that tangency is a known, accepted tradeoff for
-   the larger mark. Backing off to p-3 with a 3px lift clears it if wanted. */
+   empty margin), then p-3 plus a 3px lift was chosen by eye. The triangle is
+   widest at its base exactly where the circle narrows, so going any larger
+   (p-2) puts its feet on the ring and reads as clipping on a real phone —
+   don't tighten this without checking the feet at mobile width. */
 export function AvatarRing() {
   return (
     <div className="avatar-ring relative z-3 mx-auto -mt-16 h-32 w-32 rounded-full p-1 shadow-card">
-      <div className="flex h-full w-full items-center justify-center rounded-full border-[3px] border-card bg-background p-2">
+      <div className="flex h-full w-full items-center justify-center rounded-full border-[3px] border-card bg-background p-3">
         <img
-          className="block h-full w-full -translate-y-[6px] object-contain"
+          className="block h-full w-full -translate-y-[3px] object-contain"
           src="/assets/logo-icon.svg"
           alt="Ascension Glassworks"
         />

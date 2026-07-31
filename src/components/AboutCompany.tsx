@@ -6,7 +6,7 @@ export function AboutCompany() {
   return (
     <section className="px-gutter pt-[34px] pb-1.5">
       <SectionHead kicker="The Company" title="Raising the Standard" />
-      <div className="space-y-3 font-serif text-[1.02rem] leading-relaxed text-muted-foreground [&_strong]:font-sans [&_strong]:text-[0.95rem] [&_strong]:font-medium [&_strong]:text-foreground">
+      <div className="space-y-3 font-sans text-[0.95rem] leading-relaxed font-light text-muted-foreground [&_strong]:font-semibold [&_strong]:text-foreground">
         <p>
           The window and door industry has earned a reputation for high-pressure sales, poor
           communication, and frustrating customer experiences.{" "}

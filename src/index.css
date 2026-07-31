@@ -5,6 +5,9 @@
 
 @theme inline {
     --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+    /* Display serif ONLY — the hero tagline and the footer flourish. It is a
+       display face: at body sizes on ink it goes spindly and has no real bold,
+       so body copy is Montserrat Light (font-sans) throughout. */
     --font-serif: 'Cormorant Garamond', Georgia, serif;
     --font-heading: var(--font-sans);
     --color-ring: var(--ring);

@@ -40,7 +40,7 @@ export function WhyChooseUs() {
             <div className="text-[0.7rem] font-medium tracking-[0.16em] text-primary uppercase">
               {title}
             </div>
-            <p className="mt-1.5 font-serif text-[1rem] leading-relaxed text-muted-foreground">
+            <p className="mt-1.5 font-sans text-[0.95rem] font-light leading-relaxed text-muted-foreground">
               {body}
             </p>
           </div>

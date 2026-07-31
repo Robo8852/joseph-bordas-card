@@ -52,7 +52,7 @@ export function Services() {
             <b className="tile-rule relative inline-block pb-1.5 text-[0.72rem] font-medium tracking-[0.16em] text-primary uppercase">
               {label}
             </b>
-            <p className="mt-2.5 font-serif text-[1rem] leading-relaxed text-muted-foreground">
+            <p className="mt-2.5 font-sans text-[0.95rem] font-light leading-relaxed text-muted-foreground">
               {blurb}
             </p>
             {items.length > 0 && (

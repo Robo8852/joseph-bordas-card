@@ -109,23 +109,6 @@
 }
 
 @layer components {
-  /* Hero: faint gold hairline grid on ink, fading into the card at the bottom.
-     There is no brand photography yet, so the hero is drawn, not photographed. */
-  .hero-grid {
-    background-image:
-      linear-gradient(to right, color-mix(in srgb, var(--primary) 12%, transparent) 1px, transparent 1px),
-      linear-gradient(to bottom, color-mix(in srgb, var(--primary) 12%, transparent) 1px, transparent 1px);
-    background-size: 44px 44px;
-  }
-  .hero-fade::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(75% 90% at 50% 0%, color-mix(in srgb, var(--primary) 10%, transparent), transparent 70%),
-      linear-gradient(180deg, transparent 30%, var(--card) 97%);
-  }
-
   /* Avatar conic ring */
   .avatar-ring {
     background: conic-gradient(from 210deg,

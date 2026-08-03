@@ -9,15 +9,17 @@ draft. The following are still unknown or unresolved and must be settled before 
 - **Email address** — no email appears in any source, so the template's **Email quick-action
   tile was removed** (`src/components/QuickActions.tsx` is now a 3-up grid: Call / Text /
   Connect) and `EMAIL:` was left out of `public/Joseph-Bordas.vcf`. Add both once known.
-- **Joseph's job title** — unknown. `src/components/Identity.tsx` shows the generic badge
-  "Windows & Doors" instead of a role, and `TITLE:` was omitted from the vCard. Set both
-  once his real role is confirmed.
-- **Bio** — deliberately none. The template's biographical "About David" section was replaced
-  by `src/components/WhyChooseUs.tsx` (company value props from the Copy Master). No
-  biographical facts about Joseph were invented. Add a real bio section if the client wants one.
-- **Photo** — there is no photo of Joseph. The avatar spot holds the Ascension Glassworks
-  A-mark instead (`public/assets/logo-mark.svg`, cropped from the full lockup in
-  `public/assets/logo.svg`). Swap in a portrait if one is supplied.
+- ~~**Joseph's job title**~~ — RESOLVED (2026-08-03): the client-supplied bio opens "I'm the
+  founder of Ascension Glassworks", so the Identity badge now reads "Founder" and
+  `TITLE:Founder` was added to the vCard.
+- ~~**Bio**~~ — RESOLVED (2026-08-03): client supplied a personal bio; it's rendered verbatim
+  in `src/components/AboutJoseph.tsx` ("Your Contact / About Joseph Bordas"), placed before
+  the About Ascension section.
+- ~~**Photo**~~ — RESOLVED (2026-08-03): client supplied a headshot. Square avatar crop at
+  `public/assets/joseph-bordas.jpg`, untouched original at
+  `reference/joseph-headshot-original.png`. Checked for AI watermarks (none found — appears
+  to be a genuine studio shot). The A-mark avatar treatment it replaced is preserved in git
+  history of `src/components/AvatarRing.tsx`, including its hand-tuned sizing notes.
 - **Web domain / "Get a Quote" link** — no Ascension Glassworks domain appears in any source.
   Consequences, all of which should be revisited once the site exists:
   - `src/components/PrimaryCtas.tsx` — the template's "Website" button was replaced by

@@ -6,9 +6,8 @@ export function Identity() {
       <div className="mt-1.5 text-sm font-medium tracking-[0.2em] text-primary uppercase">
         Ascension Glassworks
       </div>
-      {/* TODO(client): Joseph's actual role is unknown — generic badge for now. */}
       <div className="mt-3 inline-block rounded-full border border-border px-3.5 py-1 text-[0.68rem] font-medium tracking-[0.18em] text-muted-foreground uppercase">
-        Windows &amp; Doors
+        Founder
       </div>
     </div>
   )
